@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+  <FORM name="Calculator">
+   <input type="text" name="txt1" style="text-align:right"/></br>
+   <input type="button" name="btn9" value = 9 OnClick= "displynum(btn9.value)"/>
+   <input type="button" name="btn8" value = 8 OnClick="displynum(btn8.value)"/>
+   <input type="button" name="btn7" value = 7 OnClick="displynum(btn7.value)"/>
+   <input type="button" name="addbtn" value = + OnClick="displynum(addbtn.value)"/></br>
+   <input type="button" name="btn6" value = 6 OnClick="displynum(btn6.value)"/>
+   <input type="button" name="btn5" value = 5 OnClick="displynum(btn5.value)"/>
+   <input type="button" name="btn4" value = 4 OnClick="displynum(btn4.value)"/>
+   <input type="button" name="subbtn" value = - OnClick="displynum(subbtn.value)"/></br>
+   <input type="button" name="btn3" value = 3 OnClick="displynum(btn3.value)"/>
+   <input type="button" name="btn2" value = 2 OnClick="displynum(btn2.value)"/>
+   <input type="button" name="btn1" value = 1
+   OnClick="displynum(btn1.value)"/>
+   <input type="button" name="mulbtn" value = * OnClick="displynum(mulbtn.value)"/></br>
+   <input type="button" name="btn0" value = 0 OnClick="displynum(btn0.value)"/>
+   <input type="button" name="decbtn" value = . OnClick="displynum(decbtn.value)"/>
+   <input type="button" name="eqbtn" value = = OnClick="txt1.value=eval(txt1.value)"/>
+   <input type="button" name="divbtn" value = / OnClick="displynum(divbtn.value)"/></br>
+
+  </FORM>
+
+  <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
